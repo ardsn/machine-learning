@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "machine-learning"
+version = "0.1.0"
+description = "A repository to apply machine learning knowledges"
+authors = ["ardsn <rod_sn@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scikit-learn = "^1.2.2"
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
